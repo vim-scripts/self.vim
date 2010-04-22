@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3072
+
+The self.vim library provides a base Object Prototype for a VimScript object hierarchy which includes
+ method and data inheritance. Method  dispatch is static rather than dynamic - a VimScript 
+function calling limitation. Included are a couple of limited test scripts. Self.vim is used extensively 
+by the Scala comment generating/formating script scommenter.vim version-2.0                                                      
+(http://www.vim.org/scripts/script.php?script_id=3047). If you are interested to see larger, 
+more complex usage of self.vim, you
+might download the scommenter.vim script and see how the ObjectPrototype
+is used there - there are four different object hierarchies.
+(FYI: Scala is a very progressive, large application language, If you are
+a Java, C#, C++, Ruby, Python, Erlang application programmer you might
+want to investigate Scala - or not.)
+
